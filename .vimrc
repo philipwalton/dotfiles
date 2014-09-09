@@ -84,6 +84,11 @@ cnoreabbrev <expr> X ((getcmdtype() is# ':' && getcmdline() is# 'X')?('x'):('x')
 
 " Toggle spell checking on and off.
 map <leader>ss :setlocal spell!<cr>
+
+" Toggle paste mode on and off.
+map <leader>pp :setlocal paste!<cr>
+
+
 " -----------------------------------------------------------------------------
 " Plugin Settings
 " -----------------------------------------------------------------------------
