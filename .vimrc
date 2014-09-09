@@ -66,6 +66,10 @@ autocmd filetype make setlocal noexpandtab
 " Auto reload vimrc when editing it.
 autocmd! bufwritepost .vimrc source ~/.vimrc
 
+" Set to auto read when a file is changed from the outside.
+set autoread
+
+
 " -----------------------------------------------------------------------------
 " Key Mappings
 " -----------------------------------------------------------------------------
