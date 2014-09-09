@@ -63,6 +63,8 @@ autocmd BufWritePre *.css,*.html,*.js,*.json,*.md,*.py,*.rb,*.sh,*.txt
 " Use tabs in Makefile
 autocmd filetype make setlocal noexpandtab
 
+" Auto reload vimrc when editing it.
+autocmd! bufwritepost .vimrc source ~/.vimrc
 
 " -----------------------------------------------------------------------------
 " Key Mappings
