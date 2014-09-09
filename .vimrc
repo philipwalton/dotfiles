@@ -30,6 +30,14 @@ syntax enable
 
 set hidden
 
+" Centralize backups, swapfiles and undo history
+set backupdir=$HOME/.vim/backups
+set directory=$HOME/.vim/swaps
+if exists("&undodir")
+    set undodir=$HOME/.vim/undo
+endif
+set viminfo+=n$HOME/.vim/.viminfo
+
 
 " -----------------------------------------------------------------------------
 " UI/UX
