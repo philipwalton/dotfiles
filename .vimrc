@@ -30,7 +30,7 @@ syntax enable
 
 set hidden
 
-" Centralize backups, swapfiles and undo history
+" Centralize backups, swapfiles, and undo history.
 set backupdir=$HOME/.vim/backups
 set directory=$HOME/.vim/swaps
 if exists("&undodir")
@@ -60,7 +60,7 @@ set list lcs=trail:·,tab:»·
 autocmd BufWritePre *.css,*.html,*.js,*.json,*.md,*.py,*.rb,*.sh,*.txt
     \ :call StripTrailingWhitespace()
 
-" Use tabs in Makefile
+" Use tabs in Makefile.
 autocmd filetype make setlocal noexpandtab
 
 " Auto reload vimrc when editing it.
@@ -74,7 +74,7 @@ set autoread
 " Key Mappings
 " -----------------------------------------------------------------------------
 
-" Strip trailing whitespace (,$)
+" Strip trailing whitespace (,$).
 noremap <leader>$ :call StripTrailingWhitespace()<CR>
 
 " Map :W to :w and :Q to :q, etc.
