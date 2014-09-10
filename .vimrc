@@ -72,6 +72,9 @@ autocmd! bufwritepost .vimrc source ~/.vimrc
 " Set to auto read when a file is changed from the outside.
 set autoread
 
+" Enable the mouse (if you want it).
+set mouse=a
+
 
 " -----------------------------------------------------------------------------
 " Key Mappings
