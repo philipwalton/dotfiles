@@ -120,6 +120,9 @@ set tm=500
 " Add a bit extra margin to the left
 set foldcolumn=1
 
+" allow multiple indentation/deindentation in visual mode
+vnoremap < <gv
+vnoremap > >gv
 
 " -----------------------------------------------------------------------------
 " Key Mappings
