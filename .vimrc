@@ -78,9 +78,6 @@ set mouse=a
 "Always show current position
 set ruler
 
-" Height of the command bar
-set cmdheight=2
-
 " A buffer becomes hidden when it is abandoned
 set hid
 
