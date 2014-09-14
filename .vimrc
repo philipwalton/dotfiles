@@ -121,6 +121,9 @@ set foldcolumn=1
 vnoremap < <gv
 vnoremap > >gv
 
+" Yank to the system register (*) by default.
+set clipboard=unnamed
+
 " -----------------------------------------------------------------------------
 " Key Mappings
 " -----------------------------------------------------------------------------
