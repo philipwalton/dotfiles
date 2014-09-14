@@ -170,6 +170,11 @@ map <Leader>k <Plug>(easymotion-k)
 " ------------
 let g:vim_markdown_folding_disabled=1
 
+" git-gutter
+" ---------
+" Fix a color conflict with solarized.
+" https://github.com/airblade/vim-gitgutter/issues/164
+hi clear SignColumn
 
 " -----------------------------------------------------------------------------
 " Functions
