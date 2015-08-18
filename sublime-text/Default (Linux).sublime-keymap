@@ -1,0 +1,5 @@
+[
+  {"keys": ["ctrl+shift+r"], "command": "reveal_in_side_bar"},
+  {"keys": ["ctrl+v"], "command": "paste_and_indent" },
+  {"keys": ["ctrl+shift+v"], "command": "paste" }
+]
