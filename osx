@@ -1,0 +1,8 @@
+# Set the keyboard "Delay Until Repeat" value
+# (note, "short" in System Preference equals 15)
+defaults write NSGlobalDomain InitialKeyRepeat -int 15
+
+# Set the keyboard "Key Repeat" value
+# (note, "fast" in System Preference equals 2)
+defaults write NSGlobalDomain KeyRepeat -int 2
+
