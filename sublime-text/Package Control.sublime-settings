@@ -1,0 +1,15 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Jinja2",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"Solarized Color Scheme"
+	]
+}
