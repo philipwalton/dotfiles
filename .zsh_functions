@@ -1,0 +1,4 @@
+# Functions
+server() {
+  python -m SimpleHTTPServer $1
+}
