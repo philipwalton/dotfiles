@@ -1,17 +1,39 @@
 {
 	"added_words":
 	[
-		"codebase"
+		"codebase",
+		"performant",
+		"polyfill",
+		"inline",
+		"foo",
+		"quz",
+		"stylesheet",
+		"prepending",
+		"stylesheets",
+		"plugin",
+		"transpiler",
+		"online"
 	],
-	"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/Colorsublime-Themes/Monokai-Soft.tmTheme",
 	"detect_indentation": true,
 	"draw_white_space": "all",
+	"font_options":
+	[
+		"gray_antialias"
+	],
 	"font_size": 16.0,
 	"ignored_packages":
 	[
-		"Vintage",
-		"JavaScript"
+		"JavaScript",
+		"Vintage"
 	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"overlay_scroll_bars": "enabled",
 	"rulers":
 	[
 		80
